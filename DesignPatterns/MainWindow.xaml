@@ -1,0 +1,27 @@
+﻿<Window x:Class="Chain_of_Responsibility_Exceptions.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        WindowStartupLocation="CenterScreen"
+        Title="Chain of Responsibility" Height="195" Width="295">
+    <Grid Background="{StaticResource ClientBackgroundBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock x:Name="TextBlock1" Grid.Row="0"
+                   Style="{StaticResource TextBlockStyle}" />
+        <ComboBox x:Name="ExceptionBox" Grid.Row="1"
+                  Style="{StaticResource ComboBoxStyle}">
+            <ComboBoxItem IsSelected="True">AccessViolationException</ComboBoxItem>
+            <ComboBoxItem>NullReferenceException</ComboBoxItem>
+            <ComboBoxItem>ArgumentException</ComboBoxItem>
+            <ComboBoxItem>Exception</ComboBoxItem>
+        </ComboBox>
+        <Button x:Name="ClickMeButton" Grid.Row="2"
+                Style="{StaticResource ButtonStyle}"
+                Content="Click Me!"
+                Click="ClickMeButton_Click"/>
+    </Grid>
+</Window>

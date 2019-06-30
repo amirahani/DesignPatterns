@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chain of Responsibility-Exception", "DesignPatterns\Chain of Responsibility-Exception.csproj", "{69F3F7D6-63F5-45E9-A86A-5E5804AF88F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chain of Responsibility", "Chain of Responsibility", "{4DA64B1E-5F98-4D9E-A10D-CC6973349838}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Facade", "Facade", "{87AD418F-04ED-4D8F-8CBA-7A5EBA26DABA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade-Component", "Facade-Component\Facade-Component.csproj", "{6AB76A58-4ACC-4546-B6A3-D84078918DFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade-foreach", "Facade-foreach\Facade-foreach.csproj", "{89E71E9C-5BE9-490B-9FFC-0D71CA928E79}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69F3F7D6-63F5-45E9-A86A-5E5804AF88F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69F3F7D6-63F5-45E9-A86A-5E5804AF88F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69F3F7D6-63F5-45E9-A86A-5E5804AF88F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69F3F7D6-63F5-45E9-A86A-5E5804AF88F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AB76A58-4ACC-4546-B6A3-D84078918DFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AB76A58-4ACC-4546-B6A3-D84078918DFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AB76A58-4ACC-4546-B6A3-D84078918DFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AB76A58-4ACC-4546-B6A3-D84078918DFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89E71E9C-5BE9-490B-9FFC-0D71CA928E79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89E71E9C-5BE9-490B-9FFC-0D71CA928E79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89E71E9C-5BE9-490B-9FFC-0D71CA928E79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89E71E9C-5BE9-490B-9FFC-0D71CA928E79}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{69F3F7D6-63F5-45E9-A86A-5E5804AF88F9} = {4DA64B1E-5F98-4D9E-A10D-CC6973349838}
+		{6AB76A58-4ACC-4546-B6A3-D84078918DFE} = {87AD418F-04ED-4D8F-8CBA-7A5EBA26DABA}
+		{89E71E9C-5BE9-490B-9FFC-0D71CA928E79} = {87AD418F-04ED-4D8F-8CBA-7A5EBA26DABA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D67EA8C3-6078-4373-9A44-92E5B2354F67}
+	EndGlobalSection
+EndGlobal
